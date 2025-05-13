@@ -1,0 +1,1 @@
+export const BASE_API_URL = 'https://api-hoz4ainleq-uc.a.run.app/api';

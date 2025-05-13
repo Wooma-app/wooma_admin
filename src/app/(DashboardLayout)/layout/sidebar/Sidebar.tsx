@@ -72,13 +72,15 @@ const MSidebar = ({
               {/* ------------------------------------------- */}
               {/* Logo */}
               {/* ------------------------------------------- */}
-              <Logo img="/images/logos/dark-logo.svg" />
+              <Box className="logo-image">
+                <Logo img="/images/logos/wooma-logo.svg" />
+              </Box>
               <Box>
                 {/* ------------------------------------------- */}
                 {/* Sidebar Items */}
                 {/* ------------------------------------------- */}
                 <SidebarItems />
-                <Upgrade />
+                {/* <Upgrade /> */}
               </Box>
             </Sidebar >
           </Box>
