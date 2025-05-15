@@ -72,7 +72,7 @@ const ReportsSummary:React.FC<ReportsSummaryProps> = ({totalReportsCnt, paidRepo
       },
     ],
   };
-  const seriescolumnchart: any = [7000, 5000];
+  const seriescolumnchart: any = [paidReportsCnt, totalReportsCnt-paidReportsCnt];
 
   return (
     <DashboardCard title="Reports Summary">

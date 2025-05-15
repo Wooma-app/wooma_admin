@@ -58,7 +58,7 @@ const AuthLogin = ({ title, subtitle, subtext }: loginType) => {
       setConfirmation(confirmationResult);
       setOtpSent(true);
     } catch (error) {
-      alert('Something went wrong. Please refresh and try again.')
+      alert('Something went wrong.')
       console.error('Error sending OTP:', error);
     }
   };
