@@ -6,7 +6,7 @@ import {
     TableCell,
     TableHead,
     TableRow,
-    Tooltip,
+    Tooltip
 } from '@mui/material';
 import React from 'react';
 import { format } from 'date-fns';
@@ -18,9 +18,7 @@ interface UsersTableProps {
 }
 
 const UsersTable: React.FC<UsersTableProps> = ({users}) => {
-
     return (
-
         <DashboardCard title="Users">
             <Box sx={{ overflow: 'auto', width: { xs: '280px', sm: 'auto' } }}>
                 <Table
